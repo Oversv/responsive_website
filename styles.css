@@ -1,0 +1,14 @@
+body {
+    background-color: darkslategray;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color: lightblue;
+        color: #000;
+    }
+    h1 {
+        display: none;
+    }
+}
